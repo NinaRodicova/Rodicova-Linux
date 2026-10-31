@@ -1,0 +1,3 @@
+#!/bin/sh
+bindir=$(dirname "$0")
+LD_PRELOAD="$bindir/../lib/safemove/my_remove.so" move "$@"
