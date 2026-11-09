@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the magic package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: magic 1.0\n"
+"Report-Msgid-Bugs-To: nrodicova@gmail.com\n"
+"POT-Creation-Date: 2026-11-09 21:56+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prog.c:18
+#, c-format
+msgid "Pick a number from 1 to 100\n"
+msgstr ""
+
+#: prog.c:23
+#, c-format
+msgid "This number is greater than %d?\n"
+msgstr ""
+
+#: prog.c:25 prog.c:47
+#, c-format
+msgid "Error!\n"
+msgstr ""
+
+#: prog.c:32
+msgid "Yes\n"
+msgstr ""
+
+#: prog.c:34 prog.c:41 prog.c:50
+#, c-format
+msgid "Your number: %d\n"
+msgstr ""
+
+#: prog.c:39
+msgid "No\n"
+msgstr ""

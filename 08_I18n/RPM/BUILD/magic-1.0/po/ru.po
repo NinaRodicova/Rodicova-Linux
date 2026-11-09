@@ -1,0 +1,47 @@
+# Russian translations for  08_I18n package.
+# Copyright (C) 2026 THE  08_I18n'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  08_I18n package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  08_I18n\n"
+"Report-Msgid-Bugs-To: nrodicova@gmail.com\n"
+"POT-Creation-Date: 2026-11-09 21:56+0300\n"
+"PO-Revision-Date: 2026-11-09 21:47+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: prog.c:18
+#, c-format
+msgid "Pick a number from 1 to 100\n"
+msgstr "Загадайте число от 1 до 100\n"
+
+#: prog.c:23
+#, c-format
+msgid "This number is greater than %d?\n"
+msgstr "Это число больше %d?\n"
+
+#: prog.c:25 prog.c:47
+#, c-format
+msgid "Error!\n"
+msgstr "Ошибка!\n"
+
+#: prog.c:32
+msgid "Yes\n"
+msgstr "Да\n"
+
+#: prog.c:34 prog.c:41 prog.c:50
+#, c-format
+msgid "Your number: %d\n"
+msgstr "Ваше число: %d\n"
+
+#: prog.c:39
+msgid "No\n"
+msgstr "Нет\n"
