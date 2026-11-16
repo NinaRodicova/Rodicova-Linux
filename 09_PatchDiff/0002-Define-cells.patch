@@ -1,0 +1,29 @@
+From cea58cb2a6eb3776d91c5233bb8002291847afaa Mon Sep 17 00:00:00 2001
+From: NinaRodicova <nrodicova@gmail.com>
+Date: Mon, 16 Nov 2026 19:54:53 +0300
+Subject: [PATCH 2/3] Define cells
+
+---
+ 09_PatchDiff/lab.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/09_PatchDiff/lab.c b/09_PatchDiff/lab.c
+index c95a246..c111799 100644
+--- a/09_PatchDiff/lab.c
++++ b/09_PatchDiff/lab.c
+@@ -3,9 +3,9 @@
+ #include <stdlib.h>
+ 
+ int main(int argc, char**argv) {
+-    int N = atoi(argv[1]);
+-    char stone = '#';
+-    char room = '.';
++    int N = atoi(argv[2]);
++    char stone = argv[1][1];
++    char room = argv[1][0];
+     srand(time(NULL));
+ 
+     int N_stone = (2 * N - 1) * 4 + N * (N - 1) * 2;
+-- 
+2.50.1
+

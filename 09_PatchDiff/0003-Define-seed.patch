@@ -1,0 +1,31 @@
+From 446cdde80f0a3c23cc8260c4cf93ece14d92e1ec Mon Sep 17 00:00:00 2001
+From: NinaRodicova <nrodicova@gmail.com>
+Date: Mon, 16 Nov 2026 19:56:35 +0300
+Subject: [PATCH 3/3] Define seed
+
+---
+ 09_PatchDiff/lab.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/09_PatchDiff/lab.c b/09_PatchDiff/lab.c
+index c111799..cebdc57 100644
+--- a/09_PatchDiff/lab.c
++++ b/09_PatchDiff/lab.c
+@@ -3,10 +3,10 @@
+ #include <stdlib.h>
+ 
+ int main(int argc, char**argv) {
+-    int N = atoi(argv[2]);
+-    char stone = argv[1][1];
+-    char room = argv[1][0];
+-    srand(time(NULL));
++    int N = atoi(argv[3]);
++    char stone = argv[2][1];
++    char room = argv[2][0];
++    srand(atoi(argv[1]));
+ 
+     int N_stone = (2 * N - 1) * 4 + N * (N - 1) * 2;
+     int min_N_stone = N_stone * 0.15 + 1;
+-- 
+2.50.1
+
